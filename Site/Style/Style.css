@@ -1,10 +1,14 @@
 body {
-    background-color: #000000;
+    background-color: black;
     font-family: 'Arial';
     color: white;
 }
 * {
     margin:0;
+}
+header {
+    text-align: center;
+    justify-content: center;
 }
 #id-button{
     margin-left: 50%;
