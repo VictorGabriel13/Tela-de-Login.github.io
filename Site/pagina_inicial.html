@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-
-   <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="Style/Style.css">
 </head>
 <body>
     <header>
-    <div id="main">
-        <h1>Tela Principal TCC FOGO🔥</h1><br>
-        <a href="pagina_inicial.html">Página Inicial</a>
-        <a href="dados.html">Dados do Arduino</a>
-     </div>
-     <h1>Sistema em Manutemção, Por Favor Volte Outra Hora</h1>
+        <p id="Manutencao" style="text-align: center; margin-top: 20%;">The website is currently under maintenance. Please check back later.</p>
+        <button id="id-button" type="button" onclick="traducao()"
+            >Aperte Aqui Para Traduzir</button>
     </header>
+    <script>
+         function traducao() {
+            let paragrafo = document.getElementById('Manutencao');
+            let textoOriginal = "The website is currently under maintenance. Check back later.";
+            let textoTraduzido = "O site está atualmente em manutenção. Verifique novamente mais tarde.";
+            if (paragrafo.innerText === textoOriginal) {
+                paragrafo.innerText = textoTraduzido;
+            } else {
+                paragrafo.innerText = textoOriginal;
+            }
+        }
+    </script>
 </body>
 </html>
