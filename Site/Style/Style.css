@@ -1,27 +1,15 @@
 body {
-    background-color: #1a1a2E;
-    font-family: arial;
+    background-color: #000000;
+    font-family: 'Arial';
     color: white;
 }
 * {
     margin:0;
 }
-#main {
-    background-color: #FF2E63;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-header a {
-    background-color: bisque;
+#id-button{
+    margin-left: 45%;
+    margin-top: 10px;
     border-radius: 20px;
-    padding: 10px;
-    width: 450px;
-    color: black;
-    font-weight: 400;
-    text-decoration: none;
-}
-header a:hover {
-    background-color: none;
-    color: white;
+    border: none;
+    padding: 8px 12px;
 }
